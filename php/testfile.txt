@@ -1,0 +1,1 @@
+QuerySELECT CONCAT(YEAR(fecha_inicio), '-', MONTH(fecha_inicio)) fecha, count(*) FROM alumno_servicio group by YEAR(fecha_inicio), MONTH(fecha_inicio) ORDER BY fecha_inicio
